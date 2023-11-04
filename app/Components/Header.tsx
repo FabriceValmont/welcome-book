@@ -3,8 +3,10 @@
 import React from 'react'
 import Image from 'next/image';
 import DropdownLanguage from './DropdownLanguage';
+import { useTranslate } from '../CustomHook/UseTranslation';
 
 const Header = () => {
+
   return (
     <header className="flex items-center bg-[#FFFFFF] sticky top-0 z-10 border-b-[1px] border-[#E3E4E3] px-[12px]">
         <div className="container flex w-[130px] h-[90px] pt-[16px] pb-[10px] gap-[10px] justify-center">

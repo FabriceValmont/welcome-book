@@ -31,7 +31,7 @@ const Subscription = () => {
         <div className="container flex w-[984px] h-[160px] gap-[42px] grid grid-cols-3">
             {cardsSubscriptionWhy}
         </div>
-        <h3 className="font-ultra text-[32px] text-center">Comment ça marche ?</h3>
+        <h2 className="mt-28 font-ultra text-[32px] text-center">Comment ça marche ?</h2>
         <div className="container flex w-[952px] h-[388px] gap-[42px] grid grid-cols-2">
             {cardsSubscriptionHowItWork}
         </div>
