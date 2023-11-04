@@ -19,16 +19,17 @@ const CollapsibleShowerGel = () => {
       })
   
     return (
-        <div className="container w-[814px] border-[1px] border-[#BBBABA] rounded-lg">
+        <div className="w-[814px] border-[1px] border-[#BBBABA] rounded-lg">
           <button
             onClick={toggleCollapse}
-            className="text-[20px] font-poppins"
+            className="font-bold text-[20px] font-poppins p-4"
           > Comment utiliser mon gel douche ?
-            {isCollapsed ? <span className="text-[48px] font-poppins">+</span> : <span className="text-[48px] font-poppins">-</span>}
           </button>
-          
+          <div className="text-[48px] font-poppins text-right">
+            {isCollapsed ? "+" : "-"}
+          </div>
           {!isCollapsed && (
-            <div className="">
+            <div className="grid grid-cols-2">
               {cardsShowerGel}
             </div>
           )}
