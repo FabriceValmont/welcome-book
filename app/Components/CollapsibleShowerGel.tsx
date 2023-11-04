@@ -19,7 +19,7 @@ const CollapsibleShowerGel = () => {
       })
   
     return (
-        <div className="border-[1px] border-[#BBBABA] rounded-lg">
+        <div className="container w-[814px] border-[1px] border-[#BBBABA] rounded-lg">
           <button
             onClick={toggleCollapse}
             className="text-[20px] font-poppins"

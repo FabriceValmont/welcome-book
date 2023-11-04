@@ -7,7 +7,7 @@ import Products900Care from "./Components/Products900Care";
 export default function Home() {
 
   return (
-      <main>
+      <main className="text-color-black-modify">
         <Hero />
         <Planet />
         <Subscription />
